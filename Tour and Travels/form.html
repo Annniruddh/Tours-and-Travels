@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <!-- Back Arrow -->
+    <div class="card" style="position: relative; padding: 20px;">
+        <div class="backarrow" onclick="history.back()" style="position: absolute; top: 10px; left: 10px; cursor: pointer; font-size: 20px;">
+        <i class="fa-solid fa-arrow-left"></i>
+    </div>
+    <div class="register-form">
+        <form class="form" style="justify-items:center ;">
+            <p class="title">Register </p>
+            <p class="message">Signup now and get full access to our app. </p>
+                <div class="flex">
+                <label>
+                    <input class="input" type="text" placeholder="" required="">
+                    <span>Firstname</span>
+                </label>
+        
+                <label>
+                    <input class="input" type="text" placeholder="" required="">
+                    <span>Lastname</span>
+                </label>
+            </div>  
+                    
+            <label>
+                <input class="input" type="email" placeholder="" required="">
+                <span>Email</span>
+            </label> 
+                
+            <label>
+                <input class="input" type="password" placeholder="" required="">
+                <span>Password</span>
+            </label>
+            <label>
+                <input class="input" type="password" placeholder="" required="">
+                <span>Confirm password</span>
+            </label>
+            <button class="btn" type="submit">Submit</button>
+            <p class="signin">Already have an account? <br>
+                <a href="signup.html" class="btn-link">Sign In</a> 
+            </p>
+        </form>
+    </div>
+
+</body>
+</html>
